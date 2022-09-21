@@ -1,0 +1,87 @@
+@font-face{
+    font-family: cursedFont;
+    src: url('CursedTimerUlil-Aznm.ttf');
+}
+
+body {
+    margin: 0;
+    background-color: #1b244a
+}
+
+.container-row{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 1px solid violet; */
+}
+
+.container-col{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid indigo; */
+}
+
+.top-h{
+    margin-top:68px;
+    /* border: 1px solid red; */
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+    font-style: normal;
+    font-weight: 700;
+    /* >>>>>>>>>>the font weight is needeed to give the heading and bold effect */
+    line-height: 36px;
+    /* width: 149px; */
+    /* >>>>>>>>>>flex takes care of it and aligns properly instead of indi width each time? */
+    height: 36px;
+}
+
+.score{
+    /* justify-content: center; */
+    text-align: center;
+    /* >>>>>>>>>>only text align works amongst the two */
+    /* align-items: center; */
+    font-family: cursedFont;
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    background: #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+    margin-top: 21px;
+    /* font-style: normal;
+    font-weight: 400; */
+    /* >>>>>>>>>>The weight doesn't seem to matter here strangely */
+    line-height: 127px;
+}
+
+.smallbtns{
+    display: flex; 
+    justify-content: space-evenly;
+    /* border: 1px solid blue; */
+    margin-top: 26px;
+}
+
+.score-cont{
+    display: flex; 
+    justify-content: space-evenly;
+    /* border: 5px solid yellowgreen; */
+}
+
+.smallbtn {
+    /* display: flex; 
+    justify-content: space-evenly; */
+    /* text-align: center; */
+    /* align-items: center; */
+    color:#9AABD8;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1b244a;
+    font-family: cursedFont;
+    /* font-size: 15px; */
+}
